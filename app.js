@@ -1,15 +1,17 @@
-
-
 alert("Wellcome to my shop")
 
 var x = prompt("What is the product you want? (Iphone ,Airpods ,MacBook)")
 
 while (x != "Iphone" && x != "Airpods" && x != "MacBook" )
 {x =prompt("please type the product you want (Iphone ,Airpods ,MacBook)")}
+
 var y = prompt("How many " + x + " you want? ")
+
 while(y > 10)
+
 {y = prompt("How many " + x + " you want? (Please put number between [1 ,10] ")}
-for(var i=1;i<=y && y<=10;i++ ){
+
+for(var i=1;i<=y ;i++ ){
 
  if(x =="Iphone" ){
    
