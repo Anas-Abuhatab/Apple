@@ -41,7 +41,7 @@ s=prompt('how many stars you want to rate us ?');
 
 function stars (s){
   
-  for (let e=1;e<=s;e++){
+  for (let e=1;e<=s && e<=5;e++){
    b = document.write("<img src='https://sites.google.com/a/netcmmi.com/share/_/rsrc/1393402257224/img/png/s/star-d03.png'  alt='stars'>");
   }
     return b;
