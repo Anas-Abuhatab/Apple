@@ -10,8 +10,12 @@ h1 {
 p {
   font-family:cursive;
   font-size: 30px;
+<<<<<<< HEAD
   color: #23F
 
+=======
+  color: white
+>>>>>>> 950af3dc35f81acce4c3e1a676d27b8176dc4008
 }
 ul {
   float: right;
@@ -33,7 +37,11 @@ header{
 }
 
 header div{
+<<<<<<< HEAD
 float:left;
+=======
+float: left
+>>>>>>> 950af3dc35f81acce4c3e1a676d27b8176dc4008
 
 }
 footer {
@@ -44,4 +52,8 @@ footer {
    background-color: red;
    color: white;
    text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 950af3dc35f81acce4c3e1a676d27b8176dc4008
